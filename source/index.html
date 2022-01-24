@@ -1,12 +1,110 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: {{projectTitle}}</title>
+    <title>Sedona</title>
   </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
-
+  <body class="page__body">
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img src="img/logotype-mobile.svg" width="102" height="84" alt="Логотип Sedona">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      </nav>
+      <ul class="main-nav__list">
+        <li class="site-list__item">
+          <a>Главная</a>
+        </li>
+        <li class="site-list__item">
+          <a href="catalog.html">Фото и видео</a>
+        </li>
+        <li class="site-list__item">
+          <a href="form.html">Форма отзыва</a>
+        </li>
+        <li class="site-list__item">
+          <a href="#">HTML Academy</a>
+        </li>
+      </ul>
+    </header>
+    <main class="page-main">
+      <h1 class="visually-hidden">Sedona сайт туристического городка в штате Аризона</h1>
+      <section class="page-intro">
+        <h2 class="page-intro__header">Седона ‒ небольшой городок в Аризоне, заслуживающий большего!</h2>
+        <p class="page-intro__content">Рассмотрим 5 причин, по которым Седона круче чем Гранд Каньон!</p>
+      </section>
+      <section class="advantages">
+        <ol class="advantages__list">
+        <li class="advantages__item">
+          <h2>Настоящий городок</h2>
+          <p>‒ №1 ‒</p>
+          <p>Седона не атракцион для туристов, там течёт своя жизнь</p>
+          <ul class="city-advantages__list">
+            <li class="city-advantages__item">
+              <h3>Жильё</h3>
+              <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+            </li>
+            <li class="city-advantages__item">
+              <h3>Сувениры</h3>
+              <p>Не только китайского, но и местного производства!</p>
+            </li>
+            <li class="city-advantages__item">
+              <h3>Еда</h3>
+              <p>Всегда заказывайте фирменный бургер, Вы не разочаруетесь!</p>
+            </li>
+          </ul>
+        </li>
+        <li class="advantages__item">
+          <h2>Там есть мост дьявола</h2>
+          <p>‒ №2 ‒</p>
+          <p>Да, по нему можно пройти! Если конечно Вы осмелитесь</p>
+        </li>
+        <li class="advantages__item">
+          <h2>Небольшая площадь</h2>
+          <p>‒ №3 ‒</p>
+          <p>Все интересные места находятся очень близко</p>
+        </li>
+        <li class="advantages__item">
+          <h2>Красивая дорога</h2>
+          <p>‒ №4 ‒</p>
+          <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+        </li>
+        <li class="advantages__item">
+          <h2>Мало туристов</h2>
+          <p>‒ №5 ‒</p>
+          <p>Большинство едет в Гранд Каньон и толпится там</p>
+        </li>
+      </section>
+      <section class="hotel-search">
+        <h2 class="visually-hidden">Поиск гостиницы</h2>
+        <p class="hotel-search__title">Заинтересовались?</p>
+        <p class="hotel-search__content">
+          Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в Седоне
+        </p>
+        <a class="hotel-search__button" href="blank.html">Найти гостиницу</a>
+      </section>
+      <section class="map">
+        <img src="img/map-mobile.jpg" alt="Расположение Седоны на карте">
+      </section>
+    </main>
+    <footer class="page-footer">
+      <p class="page-footer__header">#visitsedona</p>
+      <p class="page-footer__social">
+        <a class="social-link" href="#">
+          Мы в Твиттере
+        </a>
+        <a class="social-link" href="#">
+          Мы в Фейсбуке
+        </a>
+        <a class="social-link" href="#">
+          Мы на Ютубе
+        </a>
+      </p>
+      <p class="page-footer__copyright">
+        <a class="page-footer__copyright-link" href="https://htmlacademy.ru">
+          Разработано
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
